@@ -1,0 +1,199 @@
+*
+{
+  padding: 0;
+  margin: 0;  
+}
+
+body
+{
+	background-color: #DCDCDC;
+	height: 4000px;
+
+}
+
+
+
+main
+{
+	background-color: #F7F8F7;
+	max-width: 1150px;
+	min-width: 500px;
+	margin: auto;
+	padding-bottom:150px;
+}
+
+section
+{
+	max-width: 1150px;
+	min-width: 300px;
+}
+
+main h1
+{
+	font-family: Georgia, Times, "Times New Roman", serif;
+    line-height: 1.3;
+    margin-left: 20px;
+    height: 100px;
+    padding-top: 30px;
+}
+
+h2
+{
+	font-family: Georgia, Times, "Times New Roman", serif;
+    line-height: 1.3;
+    margin-bottom: 45px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+h3
+{
+	margin-left: 50px;
+	padding-bottom: 20px;
+	font-size: 15px;
+}
+
+article p
+{
+	max-width: 1150px;
+	min-width: 300px;
+	font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+    letter-spacing: .01rem;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+    margin-bottom: 0.25em;
+    margin-left: 90px;
+}
+
+#article1 img
+{
+	display: inline;
+	float:right;
+	width: 340px;
+	height: 240px;
+	padding-bottom: 10px;
+}
+
+#article7 img
+{
+	display: inline;
+	float:right;
+	width: 340px;
+	height: 240px;
+	padding-bottom: 10px;	
+}
+
+#Img_description
+{
+	display: inline;
+	float:right;
+	padding: 15px;
+	padding-top: 7px;
+	padding-left: 25px;
+	margin-right: 15px;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 10px;	
+}
+
+#hierarchie
+{
+	font-size: 17px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	margin-left: 50px;
+	margin-top: 35px;
+}
+
+#img_hiérarchie1
+{
+	display: inline;
+	float: left;
+	width: 220px;
+	height: 320px;
+	margin-left: 30px; 
+}
+
+#img_hiérarchie2
+{
+	display: inline;
+	float: left;
+	width: 180px;
+	height: 300px;
+	margin-left: 30px; 
+}
+
+#img_hiérarchie3
+{
+	display: inline;
+	float: left;
+	width: 200px;
+	height: 300px;
+	margin-left: 30px; 
+}
+
+#img_hiérarchie4
+{
+	display: inline;
+	float: left;
+	width: 190px;
+	height: 290px;
+	margin-left: 30px; 
+}
+#article2
+{
+	padding-bottom: 50px;
+}
+
+#article3 
+{
+	padding-bottom: 150px;
+}
+
+#article3 p
+{
+	padding-left: 200px;
+}
+
+#article4 
+{
+	padding-bottom: 180px;
+}
+
+#article4 p
+{
+	padding-left: 200px;
+}
+
+#article5 
+{
+	padding-bottom: 220px;
+}
+
+#article5 p
+{
+	padding-left: 200px;
+}
+
+#article6 
+{
+	padding-bottom: 150px;
+}
+
+#article6 p
+{
+	padding-left: 200px;
+}
+
+a
+{
+	color: #c10404;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}

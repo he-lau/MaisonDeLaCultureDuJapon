@@ -1,0 +1,157 @@
+
+body{ 
+  /*background-color: #ffcccc; */
+  background-color: white;
+  background-image: url(img/digimon-wallpaper-manga.jpg);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+
+main{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	padding: 25px;
+	background-color: white;
+	height:auto;
+	max-width:1100px;
+	min-width:600px;
+}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  border:black solid 1px;
+
+
+}
+
+
+/* Make the image to responsive */
+.image {
+  width: 100%;
+  display: block;
+  filter: grayscale(0%);
+  
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(255, 255, 255, 0.8); /* Black see-through */
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  padding: 20px;
+  
+}
+.category {
+	font-size: .9vw;
+	color: #800000;
+	font-weight:bold;
+	font-size: 11px;
+}
+.description{
+	color: #343434;
+	color: black;
+	font-weight:bold;
+	font-size: 14px;
+}
+
+.title {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.9);
+  color: #f1f1f1; 
+  width: 100%;
+  opacity:1;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  font-weight:300;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+}
+.container:hover .title {
+  opacity: 0;
+}
+.container:hover .image {
+  filter: grayscale(100%);
+}
+
+/*grille */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  width:100%;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 10px;
+}
+
+.row .container{
+  margin-top: 20px;
+  vertical-align: middle;
+  width:100%;
+  
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/*timecount */
+.timer{
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Red   #e30243*/
+  color: #ffe144;
+  margin-bottom: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 300px;
+  vertical-align:middle;
+  font-weight:bold;
+}
+
+.close {
+  margin-left: 15px;
+  color: #ffe144;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.close:hover {
+  color: black;
+}
+
+.timer img{
+	float:left;
+	margin-top:6px;
+	margin-right:10px;
+}
+
+.timer a{
+	text-decoration:none;
+	color: #ffe144;
+	float:right;
+}

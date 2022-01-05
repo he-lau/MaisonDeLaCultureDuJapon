@@ -1,0 +1,54 @@
+.icon-bar {
+  position: fixed;
+  top: 50;
+  right:0;
+  z-index:1000;
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 17px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 10px;
+}
+
+.icon-list{
+	list-style:none;
+}
+
+.icon-list li{
+	float:left;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar {
+  background-color: black;
+}
+
+.facebook:hover {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter:hover {
+  background: #55ACEE;
+  color: white;
+}
+
+.google:hover {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin:hover {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube:hover {
+  background: #bb0000;
+  color: white;
+}

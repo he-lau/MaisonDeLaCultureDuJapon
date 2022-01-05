@@ -1,0 +1,419 @@
+.ipsfocusBox-inner, .ipsfocus_megaFooter, .ipsBox:not( .ipsBox_transparent ):not( .ipsModerated ), .ipsBox, .ipsPageHeader, .focus-topic-compact .focus-topic, .ipsPager, .ipsWidget, .wDesktop #modcp_menu, .cGalleryCats, #elGalleryHeader {
+    background-color: rgba(255,255,255,1);
+}
+
+.ipsfocusBox-inner, .ipsfocus_megaFooter, .ipsBox, .ipsPageHeader, .focus-topic-compact .focus-topic, .ipsPager, .ipsWidget, .wDesktop #modcp_menu, .cGalleryCats, #elGalleryHeader {
+    border: 1px solid rgba(0,0,0,0.11);
+    box-shadow: rgba(0,0,0,0.08) 0px 2px 2px;
+    border-radius: 3px;
+    background-clip: padding-box;
+}
+.ipsPageHeader {
+    margin-top: 10px;
+    padding: 15px;
+    background: #ffffff;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ipsPageHeader {
+    background: transparent;
+    border-bottom: 0;
+    position: relative;
+}
+
+body {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-family: Tahoma, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;s
+    line-height: 18px;
+    color: #666666;
+    height: 100%;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+.ipsClearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.ipsApp .ipsButton_link.ipsFollow, .ipsApp .ipsButton_link.ipsPromote {
+    background: #ffffff;
+    color: #333333;
+}
+
+.ipsApp .ipsButton_link.ipsFollow, .ipsApp .ipsButton_link.ipsPromote {
+    background: #fff;
+    height: 28px;
+    box-sizing: content-box;
+}
+
+.ipsApp .ipsFollow, .ipsApp .ipsFollow > a:only-child {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ipsApp .ipsButton {
+    transition: none;
+}
+
+.ipsApp .ipsButton, .ipsApp .ipsToolList .ipsButton_link, .ipsApp .ipsButton_link.ipsButton_link_secondary, .ipsApp .ipsButton_link, .ipsApp .ipsButton:active, .ipsApp .ipsButton_active {
+    border: 1px solid transparent;
+}
+
+.ipsApp .ipsButton_verySmall {
+    font-size: 1.2rem;
+    line-height: 28px;
+}
+
+.ipsApp .ipsButton {
+    font-size: 1.3rem;
+}
+
+.ipsPageHeader .ipsFollow {
+    margin-top: 0;
+}
+
+.ipsApp .ipsButton_verySmall {
+    font-size: 12px;
+    line-height: 28px;
+    padding: 0 15px;
+}
+
+.ipsApp .ipsButton_link {
+    background: transparent;
+    color: #828282;
+    border: 1px solid #828282;
+    padding: 9px 20px;
+    font-weight: normal;
+}
+
+.ipsApp .ipsButton {
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.1);
+    -webkit-transition: 0.1s all linear;
+    -moz-transition: 0.1s all linear;
+    -ms-transition: 0.1s all linear;
+    -o-transition: 0.1s all linear;
+    transition: 0.1s all linear;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.ipsButton {
+    position: relative;
+}
+
+.ipsPos_middle {
+    vertical-align: middle;
+}
+
+.ipsFollow {
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.ipsApp .ipsButton_link.ipsFollow:after, .ipsApp .ipsButton_link.ipsPromote:after {
+    border-color: currentColor;
+    opacity: 0.3;
+}
+
+.ipsApp .ipsButton_link:after {
+    border-color: currentColor;
+    opacity: 0.5;
+}
+
+.ipsButton:after {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    border-width: inherit;
+    border-style: inherit;
+    border-color: rgba(0,0,0,0.2);
+    border-radius: inherit;
+    pointer-events: none;
+}
+
+.ipsFollow > a:not( .ipsCommentCount ), .ipsFollow > span:not( .ipsCommentCount ), .ipsFollow > a > span:not( .ipsCommentCount ) {
+    display: inline-block;
+    line-height: 28px;
+    position: relative;
+}
+
+.ipsFollow > *:first-child {
+    flex: 1 1 auto;
+}
+
+a.ipsType_blendLinks, .ipsType_blendLinks a {
+    color: inherit;
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+a {
+    color: #313131;
+    text-decoration: none;
+}
+
+.ipsApp .ipsFollow .ipsCommentCount {
+    margin: 0 3px;
+}
+
+.ipsFollow .ipsCommentCount {
+    color: inherit;
+    background: transparent;
+    line-height: 12px;
+}
+
+.ipsFollow > *:last-child {
+    flex: 0 0 auto;
+}
+
+.ipsFollow > .ipsCommentCount {
+    border-radius: inherit;
+}
+
+.ipsFollow .ipsCommentCount {
+    margin: 0 3px 3px 0;
+    background: #fff;
+    color: #333;
+    text-shadow: none !important;
+    line-height: 11.5px;
+    font-size: 10px;
+}
+
+.ipsCommentCount, .ipsCommentCount.ipsFaded {
+    background: #414141;
+    border-color: #414141;
+    color: #ffffff;
+}
+
+.ipsCommentCount {
+    padding: 5px 10px;
+    border-radius: 3px;
+    background: #414141;
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    line-height: 15px;
+    color: #ffffff;
+    margin-bottom: 3px;
+}
+
+.ipsFollow .ipsCommentCount:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: inherit;
+    background: currentcolor;
+    opacity: 0.15;
+    pointer-events: none;
+}
+
+.ipsPhotoPanel > .ipsUserPhoto {
+    float: left;
+    line-height: 0;
+}
+
+a.ipsUserPhoto {
+    color: inherit;
+}
+
+.ipsUserPhoto {
+    background: #fff;
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 1px;
+    position: relative;
+    margin: 2px;
+    border-radius: 150px;
+    background-color: transparent;
+}
+
+.ipsUserPhoto:before {
+    box-shadow: rgba(0,0,0,0.1) 0px 3px 8px;
+}
+
+.ipsUserPhoto:before, .ipsUserPhoto:after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    pointer-events: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: auto;
+    height: auto;
+    border-radius: inherit;
+}
+
+.ipsUserPhoto img {
+    border-radius: inherit;
+}
+
+.ipsUserPhoto_small img, img.ipsUserPhoto_small, .ipsUserPhoto_small:after {
+    width: 54px;
+    height: 54px;
+    border-radius: 27px;
+}
+
+img {
+    border-style: none;
+    vertical-align: middle;
+}
+
+.ipsPhotoPanel > .ipsUserPhoto {
+    float: left;
+    line-height: 0;
+}
+
+a.ipsUserPhoto {
+    color: inherit;
+}
+.ipsUserPhoto {
+    background: #fff;
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 1px;
+    position: relative;
+    margin: 2px;
+    border-radius: 150px;
+}
+
+.ipsUserPhoto:after {
+    border: 1px solid currentColor;
+    opacity: 0.3;
+    content: '';
+    display: none;
+    position: absolute;
+}
+.ipsUserPhoto:before, .ipsUserPhoto:after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    pointer-events: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: auto;
+    height: auto;
+    border-radius: inherit;
+}
+
+html[dir="ltr"] .ipsPhotoPanel.ipsPhotoPanel_small > div {
+    margin-left: 70px;
+}
+
+.ipsPageHeader h1 {
+    display: inline;
+}
+.ipsType_pageTitle, .ipsType_sectionTitle, .ipsType_secondaryTitle, .ipsType_sectionHead, .ipsType_minorHeading {
+    font-family: inherit;
+}
+.ipsDialog_title, .ipsType_pageTitle {
+    font-size: 2.2rem;
+}
+.ipsType_pageTitle, .ipsType_richText, .ipsStreamItem_title, a.ipsType_blendLinks:not( .ipsType_noUnderline ):hover, .ipsType_blendLinks:not( .ipsType_noUnderline ) a:not( .ipsType_noUnderline ):hover {
+    color: inherit;
+}
+.ipsType_pageTitle {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0;
+    color: #000;
+}
+.ipsType_pageTitle, .ipsType_sectionTitle, .ipsType_secondaryTitle, .ipsType_sectionHead, .ipsType_minorHeading {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.ipsContained_container {
+    display: table !important;
+}
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+.ipsType_break {
+    word-wrap: break-word;
+}
+.ipsContained {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.ipsType_reset {
+    margin: 0;
+}
+
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.ipsType_normal:not( .ipsType_richText ) {
+    line-height: 2.1rem;
+}
+.ipsType_normal:not( .ipsType_richText ) {
+    line-height: 21px;
+}
+.ipsType_normal {
+    font-size: 1.2rem;
+}
+.ipsType_normal {
+    font-size: 14px;
+}
+
+.ipsType_break {
+    word-wrap: break-word;
+}
+
+.ipsType_light {
+    color: #a4a4a4;
+}

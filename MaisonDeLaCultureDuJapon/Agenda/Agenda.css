@@ -1,0 +1,215 @@
+body
+{
+    
+	width: 100%;
+    font-family: 'Poppins', sans-serif;
+	background-color:#f2f2f2;
+}
+
+
+.calendrier
+{
+
+	width: 300px;
+	height: auto;
+	background-color:#fff;
+	box-sizing: border-box;
+	box-shadow: 0 5px 5px rgba(0,0,0,.5);
+    text-align: left;
+    margin-top: 5em;
+	position:fixed;
+	top:6%;
+
+
+
+
+
+
+}
+.calendrier .image
+{
+	width: 100%;
+	height: 200px;
+	background:url(img/cover.jpg);
+	background-size: cover;
+	padding: 20px;
+	box-sizing: border-box;
+
+
+
+}
+.calendrier .image h2,
+.calendrier .image h3
+{
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-shadow: 0 3px 3px rgba(0,0,0,.2);
+
+}
+.calendrier .image h3
+{
+	font-weight: 500;
+}
+.calendrier .date
+{
+	padding: 20px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+	grid-gap: 10px;
+	box-sizing: border-box;
+	text-decoration: none;
+
+
+}
+.calendrier .date div
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 25px;
+	color: #262626;
+
+
+
+}
+
+.calendrier .date div.jour
+{
+	font-weight: 700;
+}
+
+.calendrier .date div.jour:first-child,
+.calendrier .date div.num:nth-child(7n+1)
+{
+	color: red;
+	font-weight: 700;
+}
+.calendrier .date div.num.active,
+.calendrier .date div.num:hover
+
+{
+	background: green;
+	color: white;
+	font-weight: 700;
+	cursor: pointer;
+
+}
+.calendrier .date div.num.active{}
+
+.num a{
+  text-decoration: none;
+  color:black;
+}
+
+
+
+main{
+
+	margin: auto;
+	margin-top: 50px;
+	padding: 25px;
+	background-color: white;
+	height:auto;
+	max-width:1500px;
+	min-width:750px;
+	display:flex;
+}
+
+.day{
+	width:100%;
+	margin-bottom: 20px;
+	border:1px black solid;
+}
+.content{
+	max-width:1200px;
+	min-width:300px;
+	height:auto;
+	
+}
+.side{
+	min-width:300px;
+	float:right;
+	height:auto;
+	margin-left: 15px;
+
+}
+.description{
+	text-align:left;
+}
+
+.date-title{
+	color:white;
+	background-color:#262626;
+	font-size:30px;
+	padding:10px 20px;
+	
+}
+
+
+.item-list{
+	white-space: nowrap;
+	overflow:auto;
+	margin:10px;
+}
+
+
+
+.image-box{
+  width: 100%;
+  height:230px;
+  background-color: black;
+}
+.image-box img{
+  width: 100%;
+  height:100%;
+
+}
+
+
+.item-box{
+  margin:10px;
+  display: inline-table;
+  list-style: none;
+  width:230px;
+  box-sizing: border-box;
+  box-shadow: 0 5px 5px rgba(0,0,0,.5);
+  border: black 1px solid;
+  
+}
+
+.preview{
+  width: 100%;
+  white-space:normal;
+  margin-top:5px;
+  padding:3px;
+}
+
+.item-list a{
+  text-decoration: none;
+}
+
+
+
+.category{
+	font-size:13px;
+	color:#660000;
+}
+
+.sub-category{
+	font-size:15px;
+	color:#004d1a;
+	
+}
+
+.title{
+	font-size: 20px;
+	color: black;
+	font-weight:50;
+}
+
+.hour{
+	font-size:10px;
+	color: #4d4d4d;
+	
+}

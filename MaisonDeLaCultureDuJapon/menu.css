@@ -1,0 +1,145 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav{
+	 width: 100%;
+	 height: 60px;
+	 background-color: black;
+	 /*#262626; */
+	 top: 0;
+	 position: sticky;
+	 z-index:1000;
+
+}
+
+.nav-bar{
+	max-width:1200px;
+	min-width:600px;
+	margin:auto;
+	
+}
+
+nav div img{
+	float: left;
+	padding: 13px;
+	padding-top: 13px;
+}
+
+
+
+nav div ul li {
+	 float: left;
+	 list-style: none;
+	 position: relative;
+}
+ 
+nav div ul li a {
+	 display: block;
+	 font-family: arial;
+	 font-weight: 300;
+	 /*color: #222;*/
+	 color: white;
+	 font-size: 14px;
+	 
+	 padding: 22px 14px;
+	 text-decoration: none;
+}
+ 
+nav div ul li ul {
+	display: none;
+	position: absolute;
+	background-color: black;
+	padding: 10px;
+}
+
+nav div ul li ul li{
+	width:200px;
+}
+
+nav div ul li ul li a{
+	padding: 8px 14px;
+}
+
+nav div ul li ul li a:hover{
+	background-color: #333333;
+}
+
+nav div ul li:hover ul{
+	display: block;
+}
+
+nav div ul li:hover{
+	background-color: #333333;
+}
+
+.right{
+	float:right;
+}
+
+#billeterie{
+	background-color: #ff3333;
+}
+#billeterie a{
+	color: white;
+}
+#billeterie:hover{
+	background-color: #ff1a1a;
+}
+
+
+
+
+/*Footer*/
+
+footer{
+	margin-top: 20px;
+	background-color: black;
+	
+}
+
+.footer-main{
+	max-width:1100px;
+	min-width:600px;
+	margin: auto;
+	display: flex;
+}
+
+.plan{
+	height: 400px;
+	width: 500px;
+	margin-top:50px;
+	margin-bottom: 100px;
+	padding: 0;
+	background-image: url(img/Plan.png);
+	background-position: center center; 
+	filter: grayscale(85%)
+}
+
+.text-box{
+	margin-left:50px;
+	margin-top:50px;
+	color:white;
+	width: 500px;
+	height:250px;
+}
+
+.text-box h1{
+	font-weight: 300;
+	font-size:25px;
+	color:#b30000;
+}
+
+.text-box p{
+	margin:5px;
+	margin-bottom:15px;
+}
+
+.lien a{
+	display:block;
+	text-decoration: none;
+	color: white;
+	font-weight: 300;
+}
